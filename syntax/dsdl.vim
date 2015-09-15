@@ -21,7 +21,7 @@ syn match dsdlAttribute      "\w*\s*=" contains=dsdlAssign
 syn match dsdlStatement      "^\s*[a-zA-Z:]*"
 
 " Keyword grouping
-syn keyword dsdlInfo         name description copyright authors license
+syn keyword dsdlInfo         name description copyright authors license homepage
 syn keyword dsdlStructure    buildRequirements buildType configuration
 syn keyword dsdlBoolean      true false on off
 
