@@ -22,6 +22,7 @@ syn match dsdlStatement      "^\s*[a-zA-Z:]*"
 
 " Keyword grouping
 syn keyword dsdlInfo         name description copyright authors license homepage
+syn keyword dslDependency    dependency systemDependencies
 syn keyword dsdlStructure    buildRequirements buildType configuration
 syn keyword dsdlBoolean      true false on off
 
@@ -74,6 +75,7 @@ hi def link dsdlBoolean              Boolean
 hi def link dsdlFormat               SpecialChar
 hi def link dsdlCppString            dsdlString
 hi def link dsdlCommentL             dsdlComment
+hi def link dslDependency            Special
 hi def link dsdlNumber               Number
 hi def link dsdlOctal                Number
 hi def link dsdlOctalZero            PreProc  " link this to Error if you want
